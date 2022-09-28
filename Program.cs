@@ -15,7 +15,7 @@ if (n > 999 || n < 100)
     {
         Console.WriteLine("последняя цифра этого числа:");
 
-        int j = (n - ((n / 10)*10));
+        int j = (n % 10);
 
         Console.WriteLine(j);
     }
